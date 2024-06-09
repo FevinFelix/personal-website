@@ -103,6 +103,7 @@ main {
     text-align: center;
     color: #FFECD1;
     align-items: center;
+    justify-content: center;
     padding: 6rem 12rem;
 }
 
@@ -165,14 +166,8 @@ main {
         margin: 1rem 2rem;
     }
 
-    main {
-        padding-top: 5rem;
-        column-gap: 5rem;
-    }
-
     .home-first div {
         font-size: 5rem;
-        padding: 1rem;
     }
 
     .typing-text p {
@@ -180,28 +175,15 @@ main {
     }
 
     .home-second img {
-        max-height: 12rem;
-        object-fit: contain;
-        
+        max-height: 12rem;        
     }
 }
 
 
-@media (max-width: 925px) {
-    
-    nav h2 {
-        margin: 1rem 2rem;
-    }
-
-    main {
-        padding-top: 5rem;
-        column-gap: 5rem;
-        gap: 3rem;
-    }
+@media (max-width: 1021px) {
 
     .home-first div {
         font-size: 4rem;
-        padding: 1rem;
     }
 
     .typing-text p {
@@ -210,58 +192,24 @@ main {
 
     .home-second img {
         max-height: 9rem;
-        object-fit: contain;
-        
     }
 }
 
-@media (max-width: 775px) {
-    
-    nav h2 {
-        margin: 1rem 2rem;
-    }
 
-    main {
-        padding-top: 5rem;
-        column-gap: 5rem;
+@media (max-width: 843px) {
+    
+    .home-top {
+        flex-direction: column;
         gap: 3rem;
     }
 
-    .home-first div {
-        font-size: 3rem;
-        padding: 1rem;
+    .home-bottom {
+        padding: 6rem 3rem;
+        font-size: 2rem;
     }
-
-    .home-first {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .typing-text p {
-        font-size: 1rem;
-    }
-
-    .home-second img {
-        max-height: 8rem;
-        object-fit: contain;
-    }
-}
-
-@media (max-width: 648px) {
     
-    nav h2 {
-        margin: 1rem 2rem;
-    }
-
-    main {
-        padding-top: 5rem;
-        column-gap: 5rem;
-        gap: 3rem;
-    }
-
     .home-first div {
         font-size: 6rem;
-        padding: 1rem;
     }
 
     .home-first {
@@ -271,44 +219,46 @@ main {
 
     .typing-text p {
         font-size: 4rem;
+    }
+
+    .home-second {
+        padding-left: 5rem;
+        padding-right: 5rem;
     }
 
     .home-second img {
         max-height: 12rem;
-        object-fit: contain;
     }
 }
 
-@media (max-width: 480px) {
-    
-    nav h2 {
-        margin: 1rem 2rem;
-    }
-
-    main {
-        padding-top: 5rem;
-        column-gap: 5rem;
-        gap: 3rem;
-    }
+@media (max-width: 575px) {
 
     .home-first div {
         font-size: 4rem;
-        padding: 1rem;
-    }
-
-    .home-first {
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 
     .typing-text p {
         font-size: 2rem;
     }
 
+    .home-second {
+        padding: 0;
+    }
+
     .home-second img {
         max-height: 10rem;
-        object-fit: contain;
+    }
+
+    .home-bottom {
+        font-size: 1.5rem;
     }
 }
 
+
+@media (max-width: 575px) {
+
+    .home-second img {
+        max-height: 8rem;
+    }
+}
 
