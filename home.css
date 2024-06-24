@@ -3,13 +3,19 @@
     margin: 0;
 }
 
-nav {
+.nav-bar {
+    width: 100%;
+    background-color: antiquewhite;
+    position: fixed;
+}
+
+.nav-items {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    position: absolute;
+    position: fixed;
     right: 1rem;
-    background-color: #FFECD1;
+    background-color: blue;
     font-family: sans-serif;
     color: #C43204;
 }
@@ -133,7 +139,7 @@ main {
 /* Responsive adjustments */
 @media (max-width: 1600px) {
 
-    nav h2 {
+    .nav-items h2 {
         margin: 1rem 2rem;
     }
 
@@ -158,11 +164,11 @@ main {
 }
 
 @media (max-width: 1200px) {
-    nav {
+    .nav-items {
         right: 2rem;
     }
     
-    nav h2 {
+    .nav-items h2 {
         margin: 1rem 2rem;
     }
 
@@ -197,6 +203,16 @@ main {
 
 
 @media (max-width: 843px) {
+
+    body {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav-items {
+        right: 0;
+    }
     
     .home-top {
         flex-direction: column;
