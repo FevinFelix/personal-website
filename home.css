@@ -62,13 +62,6 @@ main {
     justify-content: center;
 }
 
-.first-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .home-first {
     display: grid;
     grid-template-rows: 2.5fr;

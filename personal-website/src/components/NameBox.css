@@ -1,0 +1,17 @@
+.name-text {
+    background-color: #C43204;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-family: "Work Sans", sans-serif;
+    font-size: 7rem;
+    font-weight: 570;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    white-space: no-wrap;
+}
+
+.name-text .fevin-felix {
+    color: #FFBD59;
+}

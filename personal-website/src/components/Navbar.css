@@ -1,0 +1,35 @@
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: fixed;
+    background-color: #FFECD1;
+    font-family: sans-serif;
+    font-weight: 510;
+    width: 100%;
+    list-style-type: none;
+}
+
+nav li {
+    margin: 0.5rem 3rem;
+    font-size: 1.5rem;
+    border-radius: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #C43204;
+    padding: 10px;
+    display: block;
+}
+
+nav a:hover {
+    color: #FFECD1;
+}
+
+nav li:hover {
+    background-color: black;
+    -webkit-transition: background-color 250ms linear;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+}

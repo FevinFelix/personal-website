@@ -1,0 +1,5 @@
+.home-first {
+    display: grid;
+    grid-template-rows: 2.5fr;
+    row-gap: 1rem;
+}
