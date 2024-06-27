@@ -4,10 +4,10 @@ import TypingTextBox from './TypingTextBox';
 
 function NameAndTypingBox() {
     return (
-        <>
+        <div className="home-first">
             <NameBox />
             <TypingTextBox />
-        </>
+        </div>
     );
 }
 

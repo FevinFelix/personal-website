@@ -187,10 +187,6 @@ main {
 
 @media (max-width: 1200px) {
     
-    .nav-items li {
-        margin: 1rem 2rem;
-    }
-
     .home-first div {
         font-size: 5rem;
     }
@@ -222,12 +218,6 @@ main {
 
 
 @media (max-width: 843px) {
-
-    body {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
 
     .nav-items {
         justify-content: center;

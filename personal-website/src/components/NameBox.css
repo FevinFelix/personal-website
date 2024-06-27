@@ -15,3 +15,43 @@
 .name-text .fevin-felix {
     color: #FFBD59;
 }
+
+@media (max-width: 1600px) {
+    .name-text {
+        font-size: 6rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .name-text {
+        font-size: 5rem;
+    }
+}
+
+
+@media (max-width: 1021px) {
+    .name-text {
+        font-size: 4rem;
+    }
+}
+
+
+@media (max-width: 843px) {
+    .name-text {
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .name-text {
+        font-size: 4rem;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .name-text {
+        font-size: 3.6rem;
+    }
+}

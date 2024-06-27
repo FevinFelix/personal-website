@@ -1,16 +1,21 @@
 import './App.css';
 import Navbar from './components/Navbar.js';
-import NameBox from './components/NameBox.js';
-import TypingTextBox from './components/TypingTextBox.js';
 import NameAndTypingBox from './components/NameAndTypingBox.js';
+import IconSquare from './components/IconSquare.js';
 
 function App() {
   return (
     <>
-     <Navbar />
-    <main>
-      <NameAndTypingBox />
-    </main>
+      <Navbar />
+      <main className="main">
+        <div className="home-top">
+          <NameAndTypingBox />
+          <IconSquare />
+        </div>
+        <div>
+          
+        </div>
+      </main>
     </>
   );
 }

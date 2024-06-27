@@ -16,3 +16,35 @@
     font-size: 4.5rem;
     color: #FFECD1;
 }
+
+@media (max-width: 1600px) {
+    .typing-text p {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .typing-text p {
+        font-size: 3rem;
+    }
+}
+
+
+@media (max-width: 1021px) {
+    .typing-text p {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 843px) {
+    .typing-text p {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .typing-text p {
+        font-size: 2rem;
+    }
+}
