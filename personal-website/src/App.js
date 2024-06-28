@@ -9,8 +9,8 @@ function App() {
       <Navbar />
       <main className="main">
         <div className="home-top">
-          <NameAndTypingBox />
-          <IconSquare />
+          <NameAndTypingBox className="name-and-typing-box"/>
+          <IconSquare className="icon-square"/>
         </div>
         <div>
           

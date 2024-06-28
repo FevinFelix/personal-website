@@ -41,6 +41,12 @@
     .name-text {
         font-size: 6rem;
     }
+
+    .name-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 575px) {

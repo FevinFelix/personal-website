@@ -5,8 +5,8 @@ import TypingTextBox from './TypingTextBox';
 function NameAndTypingBox() {
     return (
         <div className="home-first">
-            <NameBox />
-            <TypingTextBox />
+            <NameBox className="name-box"/>
+            <TypingTextBox className="typing-text-box"/>
         </div>
     );
 }
