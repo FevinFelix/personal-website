@@ -1,0 +1,45 @@
+.home-bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    font-size: 2rem;
+    text-align: center;
+    color: #FFECD1;
+    align-items: center;
+    justify-content: center;
+    padding: 6rem 12rem;
+}
+
+.chivo {
+    font-family: "Chivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 570;
+    font-style: normal;
+}
+
+.dots {
+    font-size: 6rem;
+}
+
+.yellow {
+    color: #FFBD59;
+}
+
+.orange {
+    color: #EE7B30;
+}
+
+@media (max-width: 843px) {
+
+    .home-bottom {
+        padding: 6rem 3rem;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .home-bottom {
+        font-size: 1.5rem;
+    }
+}
+

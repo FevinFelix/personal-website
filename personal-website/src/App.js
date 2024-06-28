@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar.js';
 import NameAndTypingBox from './components/NameAndTypingBox.js';
 import IconSquare from './components/IconSquare.js';
+import AboutMe from './components/AboutMe.js';
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
           <NameAndTypingBox className="name-and-typing-box"/>
           <IconSquare className="icon-square"/>
         </div>
-        <div>
-          
-        </div>
+        <AboutMe />
       </main>
     </>
   );
