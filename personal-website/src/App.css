@@ -10,6 +10,7 @@ body {
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   scrollbar-width: none;  /* Firefox */
+  background-color: #FFECD1;
 }
 
 ::-webkit-scrollbar {

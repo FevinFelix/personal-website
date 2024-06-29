@@ -4,7 +4,7 @@ import './MovingBorderBox.css'
 function AboutMe() {
     return (
         <div className="home-bottom">
-            <div className="border box">
+            <div className="border">
                 <div className="paragraph-container">
                     <p className="p1 chivo">
                         I'm currently a CS student at <span class="yellow">Georgia Tech</span> interested in <span class="orange">cloud development</span> and <span class="orange">data engineering.</span>
