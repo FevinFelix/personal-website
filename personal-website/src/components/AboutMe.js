@@ -1,5 +1,4 @@
 import './AboutMe.css';
-import './MovingBorderBox.css'
 
 function AboutMe() {
     return (
