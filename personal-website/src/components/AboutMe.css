@@ -10,6 +10,18 @@
     padding: 6rem 12rem;
 }
 
+.home-bottom .border {
+    border-color: #FFECD1;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #141414;
+}
+
+.home-bottom .border .paragraph-container {
+    padding: 46px;
+}
+
 .chivo {
     font-family: "Chivo", sans-serif;
     font-optical-sizing: auto;
@@ -27,6 +39,14 @@
 
 .orange {
     color: #EE7B30;
+}
+
+@media (max-width: 1300px) {
+    .home-bottom {
+        padding-right: 4rem;
+        padding-left: 4rem;
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 843px) {
