@@ -1,0 +1,13 @@
+.main-projects {
+    padding-top: 7rem;
+}
+
+.projects-header {
+    font-size: 5rem;
+    margin-left: 5rem;
+    display: inline;
+    border-top: 8px solid #e37d10;
+    border-bottom: 8px solid #FFBD59;
+    background-color: #fde7c8;
+    color: black;
+}

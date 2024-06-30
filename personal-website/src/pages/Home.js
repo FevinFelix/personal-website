@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Navbar className="navbar"/>
-            <main className="main">
+            <main className="main-home">
                 <div className="home-top">
                     <NameAndTypingBox className="name-and-typing-box"/>
                     <IconSquare className="icon-square"/>
