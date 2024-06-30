@@ -7,7 +7,7 @@ import AboutMe from '../components/AboutMe.js';
 export default function Home() {
     return (
         <>
-            <Navbar />
+            <Navbar className="navbar"/>
             <main className="main">
                 <div className="home-top">
                     <NameAndTypingBox className="name-and-typing-box"/>

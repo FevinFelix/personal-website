@@ -14,7 +14,7 @@ function Navbar() {
             <ul className="nav-items">
                 <li className="nav-item"><Link to="/Home" onClick={scrollToTop}>Home</Link></li>
                 <li className="nav-item"><Link to="/Projects" onClick={scrollToTop}>Projects</Link></li>
-                <li className="nav-item"><a href="https://www.linkedin.com/in/fevinfelix/" target="_blank">Contact</a></li>
+                <li className="nav-item"><a href="https://www.linkedin.com/in/fevinfelix/" target="_blank" rel="noopener noreferrer">Contact</a></li>
             </ul>
         </nav>
     );

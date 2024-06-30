@@ -8,6 +8,7 @@
     font-weight: 510;
     width: 100%;
     list-style-type: none;
+    z-index: 999;
 }
 
 nav li {
