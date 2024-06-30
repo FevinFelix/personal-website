@@ -1,22 +1,23 @@
 import './App.css';
-import Navbar from './components/Navbar.js';
-import NameAndTypingBox from './components/NameAndTypingBox.js';
-import IconSquare from './components/IconSquare.js';
-import AboutMe from './components/AboutMe.js';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Home from './pages/Home.js';
+import Projects from './pages/Projects.js';
+import ScrollToTop from './components/ScrollToTop.js';
+
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <main className="main">
-        <div className="home-top">
-          <NameAndTypingBox className="name-and-typing-box"/>
-          <IconSquare className="icon-square"/>
-        </div>
-        <AboutMe />
-      </main>
-    </>
-  );
-}
+    return (
+      <>
+        <BrowserRouter>
+        <ScrollToTop />
+          <Routes>
+            <Route index element={<Home />} />
+            <Route path="/home" index element={<Home />} />
+            <Route path="/projects" index element={<Projects />} />
+          </Routes>
+        </BrowserRouter>
+      </>
+    );
+  }
 
 export default App;
