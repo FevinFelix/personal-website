@@ -1,13 +1,32 @@
 .main-projects {
     padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.projects-header {
+.main-projects .header {
     font-size: 5rem;
     margin-left: 5rem;
-    display: inline;
     border-top: 8px solid #e37d10;
     border-bottom: 8px solid #FFBD59;
     background-color: #fde7c8;
     color: black;
+    display: inline-block;
+}
+
+@media (max-width: 1270px) {
+    .main-projects .header {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 843px) {
+    .main-projects {
+        align-items: center;
+    }
+
+    .main-projects .header {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
 }

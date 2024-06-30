@@ -6,7 +6,9 @@ export default function Projects() {
         <>
             <Navbar />
             <main className="main-projects">
-                <h1 className="projects-header">A Few Things I've Made...</h1>
+                <header>
+                    <h1 className="header">A Few Things I've Made...</h1>
+                </header>
             </main>
         </>
     )
