@@ -1,50 +1,45 @@
 .typing-text {
-    background-color: #001524;
+    background-color: #141414fd;
     display: flex; 
     align-items: center; 
     justify-content: center;
-
+    color: #FFECD1;
     font-family: "Work Sans", sans-serif;
-    font-size: 7rem;
+    font-size: 4.5rem;
     font-weight: 570;
     border-radius: 1.5rem;
     padding: 1.5rem;
     white-space: no-wrap;
 }
 
-.typing-text p {
-    font-size: 4.5rem;
-    color: #FFECD1;
-}
-
 @media (max-width: 1600px) {
-    .typing-text p {
+    .typing-text {
         font-size: 4rem;
     }
 }
 
 @media (max-width: 1200px) {
-    .typing-text p {
+    .typing-text {
         font-size: 3rem;
     }
 }
 
 
 @media (max-width: 1021px) {
-    .typing-text p {
+    .typing-text {
         font-size: 2rem;
     }
 }
 
 
 @media (max-width: 843px) {
-    .typing-text p {
+    .typing-text {
         font-size: 4rem;
     }
 }
 
 @media (max-width: 575px) {
-    .typing-text p {
+    .typing-text {
         font-size: 2rem;
     }
 }
