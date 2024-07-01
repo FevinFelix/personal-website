@@ -16,12 +16,24 @@
 
 .cards-container {
     margin-left: 5rem;
+    margin-right: 5rem;
     margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    flex-wrap: wrap;
+    justify-content: baseline
 }
 
 @media (max-width: 1270px) {
     .main-projects .header {
         font-size: 3.5rem;
+    }
+
+    .cards-container {
+        gap: 5rem;
+        margin-left: 2.8rem;
+        margin-right: 2.8rem;
     }
 }
 
@@ -36,6 +48,10 @@
     }
 
     .cards-container {
-        margin-left: 0;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        flex-direction: column;
+        row-gap: 1rem;
+        align-items: center;
     }
 }
