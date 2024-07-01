@@ -11,6 +11,7 @@ export default function Projects() {
             <main className="main-projects">
                 <header>
                     <h1 className="header">A Few Things I've Made...</h1>
+                    <h1>More on my Github: </h1>
                 </header>
                 <div className="cards-container">
                     <ProjectCard imgSrc={MemAssistImg} imgAlt={"Card Image"}
@@ -33,7 +34,6 @@ export default function Projects() {
                     buttonText={"Repo"}
                     repoLink={"https://github.com/EL132/Memory-Assistant"}
                     />
-
                 </div>
             </main>
         </>

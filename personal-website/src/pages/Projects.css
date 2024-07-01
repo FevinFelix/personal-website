@@ -2,11 +2,12 @@
     padding-top: 7rem;
     display: flex;
     flex-direction: column;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 .main-projects .header {
     font-size: 5rem;
-    margin-left: 5rem;
     border-top: 8px solid #e37d10;
     border-bottom: 8px solid #FFBD59;
     background-color: #fde7c8;
@@ -15,25 +16,18 @@
 }
 
 .cards-container {
-    margin-left: 5rem;
-    margin-right: 5rem;
     margin-top: 4rem;
     display: flex;
     flex-direction: row;
-    gap: 10rem;
     flex-wrap: wrap;
-    justify-content: baseline
+    justify-content: space-evenly;
+    row-gap: 2rem;
 }
 
-@media (max-width: 1270px) {
+
+@media (max-width: 1240px) {
     .main-projects .header {
         font-size: 3.5rem;
-    }
-
-    .cards-container {
-        gap: 5rem;
-        margin-left: 2.8rem;
-        margin-right: 2.8rem;
     }
 }
 
@@ -42,14 +36,7 @@
         align-items: center;
     }
 
-    .main-projects .header {
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
     .cards-container {
-        margin-left: 1rem;
-        margin-right: 1rem;
         flex-direction: column;
         row-gap: 1rem;
         align-items: center;
