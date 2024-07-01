@@ -5,6 +5,7 @@ import './Projects.css'
 import MemAssistImg from '../images/MemoryAssist.png'
 import RecipeImg from '../images/RecipeSuggestion.png'
 import SafePassImg from '../images/SafePass.png'
+import GithubImg from '../images/githubIcon-circle.png'
 
 export default function Projects() {
     return (
@@ -13,7 +14,11 @@ export default function Projects() {
             <main className="main-projects">
                 <header>
                     <h1 className="header">A Few Things I've Made...</h1>
-                    <h1>More on my Github: </h1>
+                    <h1 className="github">More on my Github: 
+                        <a href="https://github.com/FevinFelix" target="_blank" rel="noopener noreferrer">
+                            <img className="github-icon" src={GithubImg}></img>
+                        </a>
+                    </h1>
                 </header>
                 <div className="cards-container">
                     <ProjectCard imgSrc={MemAssistImg} imgAlt={"Card Image"}

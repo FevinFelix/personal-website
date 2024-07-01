@@ -15,6 +15,10 @@
     display: inline-block;
 }
 
+.github{
+    margin-top: 2rem;
+}
+
 .cards-container {
     margin-top: 4rem;
     display: flex;
@@ -22,6 +26,33 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     row-gap: 2rem;
+}
+
+.github-icon {
+    margin-left: 0.4em;
+    height: 1.3em;
+    border: 5px solid black;
+    border-radius: 60px;
+    vertical-align: middle;
+    animation: pulse 3s infinite;
+}
+
+.github-icon:hover {
+    animation-play-state: paused;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.25);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 
@@ -39,6 +70,12 @@
     .cards-container {
         flex-direction: column;
         row-gap: 1rem;
+        align-items: center;
+    }
+
+    .main-projects header {
+        display: flex;
+        flex-direction: column;
         align-items: center;
     }
 }
